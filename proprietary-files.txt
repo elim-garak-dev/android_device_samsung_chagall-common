@@ -31,14 +31,6 @@ app/mcRegistry/ffffffffd0000000000000000000000a.tlbin:vendor/app/mcRegistry/ffff
 app/mcRegistry/ffffffffd0000000000000000000000e.tlbin:vendor/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin
 app/mcRegistry/fffffffff0000000000000000000001e.tlbin:vendor/app/mcRegistry/fffffffff0000000000000000000001e.tlbin
 
-# Fingerprint
-bin/vcsFPService:vendor/bin/vcsFPService
-lib/libfpasmtztransport.so:vendor/lib/libfpasmtztransport.so
-lib/libvalAuth.so:vendor/lib/libvalAuth.so
-lib/libvcsfp.so:vendor/lib/libvcsfp.so
-lib/libvfmClient.so:vendor/lib/libvfmClient.so
-lib/libvfmtztransport.so:vendor/lib/libvfmtztransport.so
-
 # Samsung Exynos5 SoC series FIMC-IS driver firmware
 vendor/firmware/fimc_is_fw2_IMX134_EEPROM.bin
 vendor/firmware/setfile_6b2_eeprom.bin
