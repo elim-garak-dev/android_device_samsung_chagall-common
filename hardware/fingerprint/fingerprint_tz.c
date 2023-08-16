@@ -373,7 +373,7 @@ void* vcs_enroll(void* vdev) {
         tz.fp_wsm->unknown2 = 0x1;
         tz.fp_wsm->input.addr = tz.g_addrs.input_addr;
         tz.fp_wsm->input.len = 0x7;
-        sprintf(tz.g_addrs.input_buf, "User_0");
+        sprintf((char* )tz.g_addrs.input_buf, "User_0");
         tz.fp_wsm->output.addr = tz.g_addrs.output_addr;
         if (i == 0) {
             tz.fp_wsm->output.len = 0x70;
